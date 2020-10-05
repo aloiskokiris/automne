@@ -1,0 +1,41 @@
+/* Feuille de style CSS */
+
+body {
+
+	background-color: black;
+
+}
+
+/* Bordure de la tv */
+.tv_image {
+
+	top: 50%;
+	left: 50%;
+	position: fixed;
+	transform: translate(-50%, -50%); /* Margin de 50% automatique */
+
+}
+
+/* Interieur de la television */
+.tv_block { 
+
+			top: 50%;
+			left: 50%;
+			position: fixed;
+			transform: translate(-50%, -50%); /* Margin de 50% automatique */
+
+			background-color: black;
+
+			height: 600px;
+			width: 820px;
+
+			border: solid;
+			border-color: white;
+			border-width: 5px;
+
+			/* Pour que les trucs restent à l'interieur */
+			
+			overflow: hidden;
+			white-space: nowrap;
+	
+}

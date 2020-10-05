@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>TV</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<meta charset="UTF-8"/>
+
+</head>
+
+<body>
+<!--
+<video width="300" height="200" controls="false" autoplay="autoplay">
+<source src="video.webm" type="video/webm" />
+</video> 
+-->
+
+	<video width="300" height="200" autoplay="autoplay" playsinline autoplay muted loop>
+  		<source src="video.webm" type="video/webm" />
+	</video>
+
+
+<script>
+	
+var audio = new Audio("dresseur.mp3");
+
+document.onclick = function() {
+  audio.play();
+}
+
+</script>
+
+<div id="bg"></div>
+
+<div class="tv_block">
+
+	<video width="820" height="555" playsinline autoplay muted loop>
+	 <source src="test5.mp4" type="video/mp4" />
+	</video>
+
+	
+	<audio autoplay><source src=”dresseur.mp3″ type=”audio/mp3″></audio>
+
+</div>
+
+<div class="tv_image">
+	<img src="tv.png">
+</div>
+
+</body>
+</html>
+
